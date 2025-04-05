@@ -29,34 +29,7 @@ Suggested workflow:
 5. **[Bonus-2]** **Utilizing Ground-Truth Transcripts:** Propose a method to improve the quality of your transcript using a ground-truth transcript provided as a single text string. Explain your hypothesis for this approach. *Note that code-snippet isn't required for this question.*
 
   As an example - for the audio extracted from [yt-link](https://www.youtube.com/watch?v=ysLiABvVos8), how can we leverage transcript scraped from [here](https://www.newsonair.gov.in/bulletins-detail/english-morning-news-7/), to improve the overall transcription quality of segments?
-
-**Submission Format:**
-
-Your submission should be a well-documented Jupyter notebook capable of reproducing your results. The notebook should automatically install all required dependencies and output the results in the specified format.
-
-- **Output Format:** Provide the results as a list of dictionaries, each representing a semantic chunk. Each dictionary should include:
-  - `chunk_id`: A unique identifier for the chunk (integer).
-  - `chunk_length`: The duration of the chunk in seconds (float).
-  - `text`: The transcribed text of the chunk (string).
-  - `start_time`: The start time of the chunk within the video (float).
-  - `end_time`: The end time of the chunk within the video (float).
-
-```python
-sample_output_list = [
-    {
-        "chunk_id": 1,
-        "chunk_length": 14.5,
-        "text": "Here is an example of a semantic chunk from the video.",
-        "start_time": 0.0,
-        "end_time": 14.5,
-    },
-    # Additional chunks follow...
-]
-```
-
-Ensure that your code is clear, well-commented, and easy to follow, with explanations for each major step and decision in the process. The notebook should be able to install all the dependencies automatically and generate the reported output when run.
-
-
+  
 ---
 
 # Task 2: Exploratory Data Analysis of New Testament Audio and Text
@@ -77,17 +50,6 @@ Your submission will be evaluated based on:
 - **Data Analysis Methods:** The techniques and approaches used for analyzing the audio and text data.
 - **Quality of Data Analysis:** How effectively the analysis addresses potential applications for the Speech team, including TTS and STT technologies.
 - **Creativity in Analysis:** Innovative approaches in data handling and analysis, and the use of relevant metrics to assess data quality and applicability.
-
-**Submission Requirements:**
-
-Your submission should include the following components:
-- **Report on Key Performance Indicators (KPIs):** A concise report detailing the key findings from your analysis, focusing on aspects that are critical for improving TTS and STT applications.
-- **Methodological Explanation:** A thorough explanation of the methods used for both web scraping and the exploratory data analysis. This should include challenges faced and how they were overcome.
-- **Supporting Materials:** Include code snippets and visualizations that highlight significant insights from the data. These should be well-documented and easy to understand, demonstrating the logic behind your analytical decisions.
-
-The report should be structured to clearly present the methodology, findings, and implications of your analysis. It should be technical yet accessible, aimed at stakeholders who may have varying levels of familiarity with data analysis techniques.
-
-
 ---
 # My Approach : 
 
