@@ -1,3 +1,25 @@
+# 📚 Table of Contents
+
+1. [Introduction](#introduction)
+2. [Task 1: Semantic Chunking of a YouTube Video](#task-1-semantic-chunking-of-a-youtube-video)
+   - [Problem Statement](#problem-statement)
+   - [Judgement Criteria](#judgement-criteria)
+   - [My Approach](#my-approach)
+     - [Model Choice: openai/whisper-large-v3](#model-choice-openaiwhisper-large-v3)
+     - [Problems and Limitations Identified](#problems-and-limitations-identified)
+     - [Technique used to mitigate](#technique-used-to-mitigate)
+     - [Transcription, Alignment and Semantic Chunking](#transcription-alignment-and-semantic-chunking)
+     - [Methodology](#methodology)
+     - [Strengths and Weaknesses](#strengths-and-weaknesses-of-the-approach)
+     - [Future Improvements](#future-improvements)
+   - [Bonus 2: Utilizing Ground-Truth Transcripts](#utilizing-ground-truth-transcripts)
+
+3. [Task 2: EDA of New Testament Audio and Text](#task-2-exploratory-data-analysis-of-new-testament-audio-and-text)
+   - [Problem Statement](#problem-statement-1)
+   - [Judgement Criteria](#judgement-criteria-1)
+
+
+
 # Speech-Team-Hiring-Task---SARVAM.AI
 This was the task done by me for the position of Summer Intern in the Speech Team of Sarvam.ai. Though they haven't replied or seen the task ever :~)
 
